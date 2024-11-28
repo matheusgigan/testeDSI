@@ -73,3 +73,8 @@ img {
 }
 
 /* Alunos: podem adicionar estilos adicionais conforme necessário */
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
