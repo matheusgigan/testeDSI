@@ -1,10 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-    console.log("Projeto Web - Grupo X está rodando");
+// Espera o DOM carregar completamente antes de executar
+document.addEventListener("DOMContentLoaded", function() {
+    // Seleciona o botão pelo ID
+    const darkModeButton = document.getElementById("darkModeButton");
 
-    // Alunos: Adicione interações com o DOM, eventos e lógica do projeto aqui
-    function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-    }
-    // Esse arquivo será trabalhado nas próximas aulas. 
+    // Adiciona o evento de clique
+    darkModeButton.addEventListener("click", function() {
+        // Alterna a classe 'dark-mode' no elemento <body>
+        document.body.classList.toggle("dark-mode"); 
+    });
 });
