@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Adiciona o evento de clique
     darkModeButton.addEventListener("click", function() {
         // Alterna a classe 'dark-mode' no elemento <body>
-        document.body.classList.toggle("dark-mode");
+        document.body.classList.toggle("dark-mode"); 
     });
 });
