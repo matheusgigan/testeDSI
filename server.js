@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 
 // Inicie o servidor
-const PORT = 3000; // ou qualquer porta que desejar
+const PORT = 5500; // ou qualquer porta que desejar
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });

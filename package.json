@@ -1,6 +1,20 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
-    "express": "^4.21.1"
-  }
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1"
+  },
+  "name": "testedsi",
+  "version": "1.0.0",
+  "description": "Este projeto web é parte de uma atividade acadêmica em que cada grupo de alunos deve desenvolver um tema específico utilizando HTML, CSS e JavaScript. O projeto inclui a integração com Bootstrap para criar uma interface responsiva, com navegação dinâmica e janelas modais. O servidor é gerido pelo Node.js e Express.js.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
